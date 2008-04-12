@@ -1,0 +1,5 @@
+<?php require("include/functions.php"); require('include/header.php');?><?php if($cfg["computer-list"]["enable"] == True) { ?>
+<script type="text/javascript">//<![CDATA[$(function() {	$("#newswrapper").animate({ height: 'show', opacity: 'show' }, 'slow');});//]]></script>
+<?php }?><div align="center">
+	<br/>	<form method="get" action="http://www.google.com/search">		<img src="http://www.google.com/logos/Logo_25wht.gif" border="0" alt="Google" align="middle"/>		<input type="text"   name="q" size="25"		 maxlength="255" value="" />		<input type="submit" value="Search" />	</form>
+	<br/>	<a href="http://mail.google.com/">Mail</a> | <a href="http://www.google.com/reader/">Reader</a> | <a href="http://picasaweb.google.com/home">Photos</a></div><?php include('include/footer.php'); ?>
