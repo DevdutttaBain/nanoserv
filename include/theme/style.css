@@ -1,0 +1,244 @@
+//
+// NanoServ: Home Server
+// | Theme -> Style
+//
+
+/* Links */
+a:link {
+	color:#003A66;
+	text-decoration:none;
+}
+a:hover {
+	color:#0060A8;
+}
+a:visited {
+	color:#003A66;
+	text-decoration:none;
+}
+/* Main Layout */
+#header {
+	background: url(../../images/nanotechcorp21headbg.png) repeat-x;
+	height:150px;
+	overflow:hidden;
+	text-align:center;
+}
+#contentwrapper {
+	background: url(../../images/nanotechcorp21bg.png) repeat-x;
+	margin-right: auto;
+	margin-left: auto;
+}
+#content {
+	background: url(../../images/nanotechcorp21contentbg.png) repeat-x;
+	width:90%;
+	padding:10px;
+	min-height:235px;
+}
+#newswrapper {
+	background: url(../../images/nanotechcorp21bg.png) repeat-x;
+	padding:10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:20px;
+	display:none;
+	z-index:10;
+}
+#footer {
+	position:absolute;
+	bottom:0px;
+	width:100%;
+}
+#footbar {
+	background: url(../../images/nanotechcorp21footerbar.png) repeat-x;
+	color:#FFFFFF;
+	font-size:14px;
+	padding-top:5px;
+	height:30px;
+	text-align:center;
+}
+#statusbar, #license {
+	padding-top:4px;
+}
+#statusbar {
+	display:none;
+}
+.post {
+	width:80%;
+	padding-top:10px;
+}
+.sidebar {
+	width:20%;
+	float:right;
+	padding:0px;
+	margin-top:66px;
+}
+.sidebar h2 {
+	padding:0px;
+	margin:0px;
+	border-bottom:1px dotted #000;
+	font-size:24px;
+}
+.sidebar ul {
+	padding:0px;
+	margin:2px 0px 10px 25px;
+	list-style-type:square;
+}
+.sidegroup ul {
+	margin-bottom:15px;
+}
+.by {
+	text-align:left;
+}
+.date {
+	border:1px solid #333;
+	background: url(../../images/nanotechcorp21headbg.png);
+	float:right;
+	color:#FFF;
+	padding:0px;
+	text-align:center;
+	font-size:14px;
+	margin:2px 15px 10px 15px;
+	text-transform:capitalize;
+}
+.date span {
+	display:block;
+	border-top:1px solid #000;
+	background: url(../../images/nanotechcorp21bg.png);
+	padding:2px 10px 2px 10px;
+	font-size:20px;
+	color:#000;
+	text-transform:lowercase;
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+.center {
+	text-align:center;
+}
+.news {
+	display:inline;
+	padding:10px;
+	text-align:left;
+}
+.newst, .newsi {
+	padding:0px;
+	margin:5px 0px 10px 5px;
+	list-style-type:none;
+	line-height:25px;
+}
+.newst {
+	list-style-type:square;
+	margin:5px 0px 10px 25px;
+}
+.news h3 {
+	padding:0px;
+	margin:0px;
+	border-bottom:1px dotted #000;
+}
+.title {
+	border-bottom: 1px solid #000;
+}
+td div.title {
+	font-weight:bold;
+}
+h1, h2 {
+	display:inline;
+}
+img {
+	border:0;
+}
+.postmetadata, .feedburnerFlareBlock {
+	font-size:12px;
+	border-top:1px dotted #000;
+	display:inline;
+}
+#playlist, #newplaylist {
+	display:none;
+}
+form {
+	display:inline;
+}
+
+/* Top Navbar */
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+#slidetabsmenu {
+	font-size:90%;
+	line-height:normal;
+	position:absolute;
+	left:26%;
+	top:124px;
+}
+
+* html #slidetabsmenu{ /*IE only. Add 1em spacing between menu and rest of content*/
+	margin-bottom: 1em;
+}
+
+#slidetabsmenu ul{
+	list-style-type: none;
+	margin:0;
+	margin-left: 10px;
+	padding:0;
+}
+
+#slidetabsmenu li{
+	display:inline;
+	margin:0;
+	padding:0;
+}
+
+#slidetabsmenu a {
+	float:left;
+	background:url(../../images/tab-left.png) no-repeat left top;
+	margin:0;
+	padding:0 0 0 9px;
+	text-decoration:none;
+}
+
+#slidetabsmenu a span {
+	float:left;
+	display:block;
+	background:url(../../images/tab-right.png) no-repeat right top;
+	padding:3px 14px 3px 5px;
+	font-weight:bold;
+	color:#3B3B3B;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#slidetabsmenu a span {float:none;}
+/* End IE5-Mac hack */
+
+#slidetabsmenu a:hover span {
+color: black;
+}
+
+#slidetabsmenu #current a {
+background-position:0 -100px;
+}
+
+#slidetabsmenu #current a span {
+background-position:100% -100px;
+color: black;
+}
+
+#slidetabsmenu a:hover {
+background-position:0% -100px;
+}
+
+#slidetabsmenu a:hover span {
+background-position:100% -100px;
+}
+
+/* Ads */
+#topad {
+	text-align:center;
+}
+
+/* Page */
+body {
+	margin:0px;
+	font-family:"Helvetica Neue", Segoe, "Segoe UI", Helvetica, Arial, sans-serif
+}
