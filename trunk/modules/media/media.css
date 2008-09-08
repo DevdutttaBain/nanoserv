@@ -1,0 +1,17 @@
+#content { padding-top:20px; }
+
+#player {
+	float:left;
+}
+
+#browser {
+	float:right;
+	text-align:left;
+	width:280px;
+	margin:8px 0;
+}
+
+#mediasettings {
+	clear:both;
+	text-align:right;
+}

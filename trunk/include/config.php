@@ -8,6 +8,9 @@
 $cfg["index"]["title"] 		= "NanoServ";
 $cfg["index"]["welcome"] 	= "Welcome to NanoServ.";
 
+// Constants
+define(BASE_URL, 'http://localhost/~NanoTech/NanoServ-Working/');
+
 // Hamachi Computer List
 $cfg["computer-list"]["enable"]				= True;
 $cfg["computer-list"]["status"]["enable"]	= True;
